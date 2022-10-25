@@ -15,7 +15,6 @@ public class MemberController {
     private final Map<Long, Map<String, Object>> members = new HashMap<>();
 
     @PostConstruct
-
     public void init() {
         Map<String, Object> member1 = new HashMap<>();
         long memberId = 1L;
